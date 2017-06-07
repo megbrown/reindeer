@@ -16,3 +16,8 @@ var hohohoElement = document.getElementById("reindeer");
 // Red Dancer
 
 // ...
+
+for (i = 0; i < reindeer.length; i++) {
+	hohohoElement.innerHTML +=
+		`<div>${colors[i] + ' ' + reindeer[i]}</div>`
+}
